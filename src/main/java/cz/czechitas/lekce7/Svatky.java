@@ -105,7 +105,6 @@ public class Svatky {
     public void pridejSvatek(String jmeno, MonthDay denMesic) {
         //TODO
         svatky.put(jmeno, denMesic);
-
     }
 
     /**
@@ -118,7 +117,6 @@ public class Svatky {
     public void pridejSvatek(String jmeno, int den, int mesic) {
         //TODO
         svatky.put(jmeno, MonthDay.of(mesic,den));
-
     }
 
     /**
