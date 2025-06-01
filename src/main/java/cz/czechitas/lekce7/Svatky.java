@@ -83,8 +83,7 @@ public class Svatky {
      */
     public int getPocetJmen() {
         //TODO
-        svatky.size();
-        return 0;
+        return svatky.size();
     }
 
     /**
