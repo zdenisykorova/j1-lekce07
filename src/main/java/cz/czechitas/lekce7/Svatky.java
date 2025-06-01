@@ -50,6 +50,7 @@ public class Svatky {
         svatky.put("Maxim", MonthDay.of(5, 29));
         svatky.put("Ferdinand", MonthDay.of(5, 30));
         svatky.put("Kamila", MonthDay.of(5, 31));
+
     }
 
     /**
@@ -72,8 +73,7 @@ public class Svatky {
      */
     public boolean jeVSeznamu(String jmeno) {
         //TODO
-        svatky.containsKey(jmeno);
-        return false;
+        return svatky.containsKey(jmeno);
     }
 
     /**
