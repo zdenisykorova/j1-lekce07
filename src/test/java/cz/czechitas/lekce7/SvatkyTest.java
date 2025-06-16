@@ -50,9 +50,9 @@ class SvatkyTest {
     void getSeznamJmen() {
         //TODO Zkontrolovat, že seznam jmen má správný počet položek.
 
-        Svatky svatky = new Svatky();
+        Svatky svatky = new Svatky(); // pokus o opravu
         svatky.getSeznamJmen();
-        int pocet = svatky.getSeznamJmen().size(); //pokus o opravu
+        int pocet = svatky.getSeznamJmen().size();
         assertEquals(37, svatky.getPocetJmen());
     }
 
